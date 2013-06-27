@@ -146,14 +146,14 @@ img {
 	width: 256px;
 }
 /** Navigation 2**/
-#navigation {
+#navigation2 {
 	display: inline-block;
 	list-style: none;
 	line-height: 100px;
 	margin: 0;
 	padding: 0;
 }
-#navigation ul {
+#navigation2 ul {
 	display: inline-block;
 	list-style: none;
 	margin: 0;
@@ -164,14 +164,14 @@ img {
 	width: 160px;
 	text-align: center;
 }
-#navigation li a {
+#navigation2 li a {
 	color: #818181;
 	font-size: 15px;
 	line-height: 30px;
 	text-decoration: none;
 }
 #navigation2 a:hover {
-	color: #03F;
+	color: #00F;
 }
 #navigation li.active a {
 	color: #f99600;
@@ -225,7 +225,7 @@ img {
 	list-style: none;
 	line-height: 100px;
 	margin: 0;
-	margin-left: 525px;
+	margin-left: 405px;
 	margin-top:	65px;
 	padding: 0;
 }
@@ -370,7 +370,7 @@ p a {
 	font-size: 12px;
 }
 .more {
-	background-color: #727272;
+	background-color: #C00;
 	color: #fff;
 	display: inline-block;
 	font-size: 14px;
@@ -381,7 +381,7 @@ p a {
 	margin-top: 25px;
 }
 .more:hover, .message input[type='submit']:hover {
-	background-color: #f99600;
+	background-color: #727272;
 	color: #000;
 }
 /** main **/
@@ -577,3 +577,8 @@ p a {
 	text-align: right;
 	margin-right: 55px;
 }
+
+.center, .lower {
+	text-align:center;
+}
+
