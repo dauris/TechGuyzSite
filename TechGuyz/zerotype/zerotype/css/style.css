@@ -58,7 +58,7 @@ img {
 /** Logo **/
 #header .logo {
 	float: left;
-	margin-right: 20px;
+	margin-right: 10px;
 }
 #header .logo a {
 	background: url(file:///C|/Users/KatastroPHIK/Documents/TechGuyzSite/TechGuyz/zerotype/zerotype/images/Tlogo.png) no-repeat center top;
@@ -66,7 +66,7 @@ img {
 	display: block;
 	font: 15px/30px 'Play';
 	height: 20px;
-	width: 76px;
+	width: 95px;
 	padding-top: 68px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -145,7 +145,7 @@ img {
 	display: block;
 	width: 256px;
 }
-/** Navigation **/
+/** Navigation 2**/
 #navigation {
 	display: inline-block;
 	list-style: none;
@@ -171,6 +171,83 @@ img {
 	text-decoration: none;
 }
 #navigation2 a:hover {
+	color: #03F;
+}
+#navigation li.active a {
+	color: #f99600;
+}
+#adbox {
+	background: url(../images/bg-adbox.jpg) repeat-x left top;
+	height: 380px;
+	padding: 60px 0;
+}
+#adbox > div {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0 80px;
+}
+#adbox > div img {
+	float: right;
+	margin-left: 60px;
+}
+#adbox h1, #adbox h2 {
+	color: #2c2c2c;
+	font-size: 60px;
+	line-height: 60px;
+	margin: 0;
+	text-transform: uppercase;
+}
+#adbox h2 {
+	font-size: 30px;
+	line-height: 36px;
+	text-transform: none;
+}
+#adbox p {
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0;
+}
+#adbox p span {
+	display: block;
+	font-size: 12px;
+	width: 360px;
+	padding: 24px 0;
+	text-align: center;
+}
+#adbox p span b {
+	font-weight: normal;
+	display: block;
+	width: 256px;
+}
+/** Navigation 3**/
+#navigation3 {
+	display: inline-block;
+	list-style: none;
+	line-height: 100px;
+	margin: 0;
+	margin-left: 465px;
+	margin-top:	65px;
+	padding: 0;
+}
+#navigation3 ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation3 li {
+	border-bottom: 1px solid #d5d5d5;
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+#navigation3 li a {
+	color: #818181;
+	font-size: 15px;
+	line-height: 30px;
+	text-decoration: none;
+}
+#navigation a:hover {
 	color: #03F;
 }
 #navigation li.active a {
@@ -300,6 +377,7 @@ p a {
 	width: 100px;
 	text-align: center;
 	text-decoration: none;
+	margin-top: 25px;
 }
 .more:hover, .message input[type='submit']:hover {
 	background-color: #f99600;
@@ -329,7 +407,7 @@ p a {
 	width: 216px;
 	margin-left: 20px;
 }
-.sidebar ul, .news {
+.sidebar ul, .news, .news2 {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -346,6 +424,20 @@ p a {
 	top: 30px;
 }
 .news li > p span, .post > span {
+	display: block;
+	text-align: right;
+}
+.news2 li {
+	padding: 24px 30px 0 100px;
+	position: relative;
+}
+.news2 li .date {
+	float: none;
+	position: absolute;
+	left: 0;
+	top: 30px;
+}
+.news2 li > p span, .post > span {
 	display: block;
 	text-align: right;
 }
@@ -478,4 +570,9 @@ p a {
 
 #right {
 	text-align: right;
+}
+
+.right {
+	text-align: right;
+	margin-right: 55px;
 }
